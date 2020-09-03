@@ -1,0 +1,10 @@
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/rfs/scss";
+
+.title.is-1 {
+    @include font-size(4rem);
+}
+
+.subtitle.is-2 {
+    @include font-size(2.5rem);
+}
