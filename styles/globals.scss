@@ -1,10 +1,48 @@
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/rfs/scss";
 
-.title.is-1 {
-    @include font-size(4rem);
+.title {
+    &.is-1 {
+        @include font-size(4rem);
+    }
+    &.is-2 {
+        @include font-size(2.5rem);
+    }
+    &.is-3 {
+        @include font-size(2rem);
+    }
 }
 
-.subtitle.is-2 {
-    @include font-size(2.5rem);
+.subtitle {
+    &.is-2 {
+        @include font-size(2.5rem);
+    }
+    &.is-4 {
+        @include font-size(1.5rem);
+    }
+}
+
+.title,
+.subtitle {
+    transition: color 0.2s ease;
+}
+
+.article:hover,
+.article:focus,
+.article:active {
+    .title,
+    .subtitle {
+        color: #0070f3;
+    }
+    border-color: #0070f3 !important;
+    transform: scale(1.01, 1.01);
+}
+
+hr.solid {
+    &.bar-1 {
+        border-top: 3px solid rgb(219, 219, 219);
+    }
+    &.bar-2 {
+        border-top: 1px solid rgb(219, 219, 219);
+    }
 }
