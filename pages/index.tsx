@@ -12,6 +12,11 @@ export default function Home({ allPostsData }): JSX.Element {
             <div className="container">
                 <h1 className="title is-1">Project Paladin</h1>
                 <h2 className="subtitle is-2">Devblog</h2>
+                <h3 className="subtitle is-3" style={{ marginTop: "-1rem" }}>
+                    <a href="https://jragone.github.io/" target="_blank">
+                        John Ragone
+                    </a>
+                </h3>
                 <TiWeatherCloudy size="4rem" style={{ color: "#0070f3" }} />
                 <GiRetroController size="4rem" style={{ marginTop: "-1rem" }} />
 
@@ -20,10 +25,10 @@ export default function Home({ allPostsData }): JSX.Element {
                         <Link key={id} href={`posts/${id}`}>
                             <a>
                                 <div className="article">
-                                    <h2 className="title is-3">{title}</h2>
-                                    <h2 className="subtitle is-4">
+                                    <h3 className="title is-3">{title}</h3>
+                                    <h4 className="subtitle is-4">
                                         {subtitle}
-                                    </h2>
+                                    </h4>
                                 </div>
                             </a>
                         </Link>
