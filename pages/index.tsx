@@ -21,17 +21,19 @@ export default function Home({ allPostsData }): JSX.Element {
                 <GiRetroController size="4rem" style={{ marginTop: "-1rem" }} />
 
                 <div className="blogs">
-                    {allPostsData.map(({ id, date, title, subtitle, slug }) => (
-                        <Link key={id} href={`posts/${id}`}>
-                            <a>
-                                <div className="article">
-                                    <h3 className="title is-3">{title}</h3>
-                                    <h4 className="subtitle is-4">
-                                        {subtitle}
-                                    </h4>
-                                </div>
-                            </a>
-                        </Link>
+                    {allPostsData.map(({ id, date, title, subtitle }, index) => (
+                        <div key={id} style={{marginTop: index === 0 ? "" : "1.5rem"}}>
+                            <Link href={`posts/${id}`}>
+                                <a>
+                                    <div className="article">
+                                        <h3 className="title is-3">{title}</h3>
+                                        <h4 className="subtitle is-4">
+                                            {subtitle}
+                                        </h4>
+                                    </div>
+                                </a>
+                            </Link>
+                        </div>
                     ))}
                 </div>
             </div>

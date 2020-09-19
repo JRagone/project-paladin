@@ -51,6 +51,7 @@ export default function Post({ postData }) {
                 <div className="container">
                     <div>
                         <h1 className="title is-1">{postData.title}</h1>
+                        <h2 className="subtitle is-2">{postData.subtitle}</h2>
                         <hr className="solid bar-1"></hr>
                     </div>
                     <div
@@ -103,6 +104,14 @@ function getPostData(id) {
                 ${level <= 2 ? `<hr class="solid bar-${level}"></hr>` : ""}
             `
         },
+        table(header, body) {
+            return `
+                <table class="table is-bordered is-striped is-hoverable">
+                    ${header}
+                    ${body}
+                </table>
+            `
+        }
     }
 
     marked.use({ renderer })
