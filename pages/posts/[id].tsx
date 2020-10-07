@@ -111,7 +111,14 @@ function getPostData(id) {
                     ${body}
                 </table>
             `
-        }
+        },
+        list(body, ordered, start) {
+            return `
+                <${ordered ? "ol" : "ul"} style="padding-left: 1rem;">
+                    ${body}
+                <${ordered ? "/ol" : "/ul"}>
+            `
+        },
     }
 
     marked.use({ renderer })
