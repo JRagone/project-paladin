@@ -34,3 +34,25 @@ And it worked!
 <br>
 
 I did a little dance once I enabled shield and called it there, planning to pick things up in the next week and hopefully not hit any more major roadblocks.
+
+## Hours
+
+### Interview
+
+One hour
+
+### Provisioning and Testing AWS
+
+Two hours
+
+### Testing GCP Images and Machines
+
+Six hours
+
+### Debugging Script
+
+One hour
+
+### Working Attempt
+
+Two and a half hours
