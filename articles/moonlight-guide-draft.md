@@ -30,13 +30,13 @@ Last week I set out with the intention of publishing the Moonlight on GCP guide.
 <br>
 <br>
 
-I was looking around online and I'm pretty hopeful there's going to be an audience for this guide. About every week there's a post like [this](https://www.reddit.com/r/cloudygamer/comments/jbl3gy/would_there_be_an_interest_for_a_guide_on_setting/) on the cloud gaming subreddit, and people always seem interested in more guides. Next week I'll be polishing and publishing this draft, as well as starting on a video tutorial of the guide.
+I was looking around online and I'm pretty hopeful there's going to be an audience for this guide. About every week there's a post like [this](https://www.reddit.com/r/cloudygamer/comments/jbl3gy/would_there_be_an_interest_for_a_guide_on_setting/) on the cloud gaming subreddit, and people always seem interested in more guides. Next week I'll be polishing and publishing this draft, as well as starting on a video tutorial of the guide. When I publish the draft, I'll also make a post to the cloud gaming subreddit and ask Cameron Gutman, the lead Moonlight developer, if his discord would be interested in it. Maybe he could direct people to the article when people ask about Moonlight on GCP in the future.
 
 <br>
 
 ## Interview with Benjy Boxer of Parsec
 
-I'll fill the rest of this post with some discussion on my interview this week with Benjy Boxer, the CEO at Parsec. This interview was over email, and he had some interesting viewpoints that were pretty divergent from my interview with Cameron Gutman, the lead developer at Moonlight. I posted below a screenshot of what I thought was his most notable answer.
+I'll fill the rest of this post with some discussion on my interview this week with Benjy Boxer, the CEO at Parsec. This interview was over email, and he had some interesting viewpoints that were pretty divergent from my interview with Cameron Gutman. I posted below a screenshot of what I thought was his most notable answer.
 
 <br>
 
