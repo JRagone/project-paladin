@@ -46,4 +46,4 @@ The other day, I came across [this cloud gaming startup](https://www.clastr.net/
 
 * Moonlight vs. Parsec on GCP video - 9 hours
 * Updating written tutorial - 2 hours
-* Researching cloud gaming, particularly reading Dr. Chun-Ying Huang's [GamingAnywhere](https://dl.acm.org/doi/10.1145/2483977.2483981) article, and soliciting interviews - 1 hour
+* Researching cloud gaming, particularly reading Dr. Chun-Ying Huang's [GamingAnywhere](https://dl.acm.org/doi/10.1145/2483977.2483981) articles, and soliciting interviews - 1 hour

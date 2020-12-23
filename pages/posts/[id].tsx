@@ -48,7 +48,7 @@ export default function Post({ postData }) {
                 <Head>
                     <title>Project Paladin</title>
                 </Head>
-                <div className="container">
+                <div className="container" style={{width: "680px"}}>
                     <div>
                         <h1 className="title is-1">{postData.title}</h1>
                         <h2 className="subtitle is-2">{postData.subtitle}</h2>
